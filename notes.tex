@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{CJK}
+\usepackage{amsmath}
+%\usepackage{syntonly}
+%\syntaxonly
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+%\noindent %段前不要缩进
+\begin{document}
+\begin{CJK*}{GBK}{song}
+\title{Linear Algebra Done Right笔记}
+\author{朱利达}
+\maketitle
+\section{笔记}
+线性代数的研究对象是有限维{\CJKfamily{hei}向量空间}上的{\CJKfamily{hei}线性映
+射}。因此第一章首先定义了向量空间。向量空间的定义是一种性质定义。向量空间就是
+带有加法和标量乘法的向量集合$V$, 并且满足交换性、结合性，分配性质等一些性质。
+向量空间$V$中的标量乘法依赖于标量所在的域$F$(完整地称$V$是定义在$F$上的向量空
+间)，本书的域为实数域和复数域。从定义性质出发，还能导出一些我们习以为常的性质
+，比如$\forall v\in V\,0v=0$,所以不要把这些性质当公理。研究向量空间时，可能仅
+仅向量空间的某一部份比较有意思，或者大空间可以被分割成各个``小部份''来研究当然
+这些分割出来的``小部分''也要是一个空间，这样才能用上向量空间的理论。正式的定义
+为{\CJKfamily{hei}子空间}。$V$的子空间$U_1,\cdots,U_n$可以构成{\CJKfamily{hei}
+和}空间。向量空间$V$也可以是它的子空间$U_1,\cdots,U_n$的{\CJKfamily{hei}直和}
+。直和的概念是一种对向量空间更``好''的分割,$\forall v \in V$都可以表示为各个子
+空间中的一个向量的和，并且这种表示是唯一的。
+\section{有意思的课后习题}
+\end{CJK*}
+\end{document}
