@@ -8,4 +8,4 @@ nutshell.pdf: nutshell.tex
 
 .PHONY : clean
 clean:
-	-del *.pdf
+	-del *.pdf *.aux *.log
